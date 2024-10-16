@@ -1,11 +1,3 @@
----
-name: 'Issue : 이슈 Feature 생성 템플릿'
-about: Suggest an idea for this project
-title: "[Feature][Scheduler]"
-labels: feature
-assignees: ''
-
----
 
 -----------------------------
 ## 구현 기능
