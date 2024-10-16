@@ -13,19 +13,19 @@
 ## 명명 규칙
 
 #### Branch : <br>
-feature/이슈 번호 - 기능 (기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' ) <br>
+feature/이슈 번호 - 기능명 (기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' ) <br>
 ex) feature/1-LogIn
 
 #### Issue : <br>
-[Feature][Scheduler]@@기능 (기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' )<br>
+[Feature][Scheduler]@@기능 (@@ : 기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' )<br>
 ex) [Feature][Scheduler] LogIn 기능
 
 #### PullRequest : <br>
-[feature]#-(이슈번호) @@기능 (기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' )<br>
+[feature]#-(이슈번호) @@기능 (@@ : 기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' )<br>
 ex) [Feature]#1 LogIn 기능
 
 #### Commit : <br>
-Branch 명명 규칙과 동일
-
+금일 날짜_feature/이슈 번호 - 기능명(기능 명을 영어로 작성 시 '앞글자는 대문자 + 카멜케이스 형식' ) <br>
+ex) 241016_feature/1-LogIn
 
 
