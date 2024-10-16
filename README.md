@@ -4,15 +4,16 @@
 
 ### 팀원 소개
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://github.com/Passbob"><img src="![형석](https://github.com/user-attachments/assets/c7a661ff-6cc8-43dc-b519-6bb093d48c70)" width="100px", height="100px", alt="조형석 이미지"/><br/><sub><b>PM(Project Manager) 팀장 : 조형석 </b></sub></a><br/></td>
-      <td align="center"><a href="https://github.com/JUHYE0925"><img src="![주혜](https://github.com/user-attachments/assets/69c82cf3-a3b1-4347-ad65-204d8d40595f)" width="100px", height="100px", alt="김주혜 이미지"/><br/><sub><b>CM(Configuration Manager) 팀원 : 김주혜 </b></sub></a><br/></td>
-      <td align="center"><a href="https://github.com/suwanpp"><img src="width=100px", alt="박수완 이미지"/><br/><sub><b>DB(Database Manager) 팀원 : 박수완 </b></sub></a><br/></td>
-      <td align="center"><a href="https://github.com/gkdsm"><img src="![하은](https://github.com/user-attachments/assets/41f33e1e-ebe4-4df5-b55e-bf0e34fb2f8d)" width="100px", height="100px", alt="이하은 이미지"/><br/><sub><b>DB(Database Manager) 팀원 : 이하은 </b></sub></a><br/></td>
-    </tr>
-  </tbody>
-</table>
+| PM(Project Manager) | CM(Configuration Manager) | DB(Database Manager) | DB(Database Manager) |
+| :---: | :---: | :---: | :---: |
+| [![형석](https://github.com/user-attachments/assets/c7a661ff-6cc8-43dc-b519-6bb093d48c70)](https://github.com/Passbob) | [![주혜](https://github.com/user-attachments/assets/69c82cf3-a3b1-4347-ad65-204d8d40595f)](https://github.com/JUHYE0925) | [](https://github.com/suwanpp) | [![하은](https://github.com/user-attachments/assets/41f33e1e-ebe4-4df5-b55e-bf0e34fb2f8d)](https://github.com/gkdsm) |
+| 팀장 : 조형석 | 팀원 : 김주혜 | 팀원 : 박수완 | 팀원 : 이하은 |
+
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 
