@@ -22,21 +22,59 @@
 
 | PM<br>(Project Manager) | CM<br>(Configuration Manager) | DB<br>(Database Manager) | DB<br>(Database Manager) |
 | :------: | :------: | :------: | :------: |
-| [![형석](https://github.com/user-attachments/assets/2b4c0bc4-cdb6-4301-8632-6877fdbb09aa)](https://github.com/Passbob) | [![주혜](https://github.com/user-attachments/assets/f1f9d949-571b-41c1-b4fd-c3f23d205ac2)](https://github.com/JUHYE0925) | [![수완](https://github.com/user-attachments/assets/8ca9bb6d-add9-4c8f-9a3c-c5a6f084264a)](https://github.com/suwanpp) | [![하은](https://github.com/user-attachments/assets/2a138c95-021e-42c6-9e12-d8d22aad568e)](https://github.com/gkdsm) 
+| [![HS](https://github.com/user-attachments/assets/ffa4bca8-78d9-45e9-90a4-48fab251ffcf)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/a19bb3f7-1878-41d6-9559-0225c43df88c)](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/6aeba65b-7681-48ef-97b7-d1c905e0cc04)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/dd9d01b0-aefa-409b-8dd2-db6197aeade2)](https://github.com/gkdsm) 
 | 팀장 : 조형석 | 팀원 : 김주혜 | 팀원 : 박수완 | 팀원 : 이하은 |
 
 -----------------------------------------------
 
 ### 프로젝트 주요 기능
 
-#### <회원>
+#### <회원관리>
 
-#### <프로젝트>
-- 새 프로젝트 생성
-- 프로젝트 참여 인원 초대
-- 프로젝트 하차 인원 삭제
-- 프로젝트 삭제
-- 프로젝트 관리 권한 위임
+1. 로그인
+   - 아이디와 비밀번호를 통해서 로그인 가능하며 로그인 시 메인 화면으로 들어갈 수 있다. <br>
+   - 만약 아이디와 비밀번호가 맞지 않는다면 실패하게 된다. <br>
+   - 로그인 화면에서 회원가입 창에 들어갈 수 있도록 만들어야한다. <br>
+
+2. 보안
+   - !!!!!!! 추후 추가할 예정!!!!!!! <br>
+
+3. 회원가입
+   - 이름, 닉네임, 이메일 주소, 아이디, 비밀번호를 필수로 입력한다. <br>
+   - 비밀번호는 영문자, 숫자, 특수 문자 모두 사용해 최소 8글자 이상으로 만들어야 한다. <br>
+   - 아이디와 비밀번호는 기존 DB정보와 비교해 중복 여부를 확인한다. <br>
+
+4. 회원정보 관리
+   - 새로운 회원의 정보를 DB에 저장한다. <br>
+   - 기존 정보가 있는 회원들은 정보를 수정할 수 있다. <br>
+   - 회원은 회원 탈퇴를 할 수 있으며 회원 탈퇴 시에 DB에 있는 정보를 즉시 삭제한다. <br>
+
+#### <프로젝트 관리>
+
+1. 프로젝트 생성
+   - 새 프로젝트를 생성할 수 있으며 프로젝트 생성 시 프로젝트 설정 창으로 넘어간다. <br>
+   - 새 프로젝트 생성 시 프로젝트명, 개요, 목표 및 목적, 시작 날짜, 종료 날짜를 필수로 지정한다. <br>
+   - 프로젝트 성격에 따라 카테고리로 나눠 관리할 수 있도록 한다. <br>
+   - 프로젝트 참여자에 대한 글 작성, 조회, 접근 권한을 설정한다 <br>
+   - 프로젝트 데이터 저장 유효 기간에 대해 고지한다. <br>
+   - 필수 입력사항을 기입하지 않거나, 데이터 저장 유효기간에 비동의 시 새 프로젝트 생성은 실패한다. <br>
+   - 프로젝트 생성 완료 시 메인 창으로 넘어가며 방금 생성한 프로젝트도 메인 창에 추가한다. <br>
+   - 프로젝트 정보를 DB에 저장한다. <br>
+
+2. 팀원 관리
+   - 프로젝트 참여 인원을 이메일을 통해 초대하여 추가한다. <br>
+   - 프로젝트 참여 인원을 삭제하며 삭제 시 프로젝트 참여 시 부여된 권한 및 정보는 제거된다. <br>
+
+3. 프로젝트 수정
+   - 프로젝트 정보를 수정할 수 있다. <br>
+
+4. 프로젝트 삭제
+   - 프로젝트 정보를 DB에서 삭제한다. <br>
+   - 삭제한 프로젝트는 메인 창에서 제거한다. <br>
+
+5. 권한 위임
+   - 프로젝트 관리 권한을 위임한다. <br>
+- 
 
 #### <스케줄러>
 
