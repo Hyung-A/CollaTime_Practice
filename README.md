@@ -22,8 +22,9 @@
 
 | PM<br>(Project Manager) | CM<br>(Configuration Manager) | DB<br>(Database Manager) | DB<br>(Database Manager) |
 | :------: | :------: | :------: | :------: |
-| [![HS](https://github.com/user-attachments/assets/ffa4bca8-78d9-45e9-90a4-48fab251ffcf)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/a19bb3f7-1878-41d6-9559-0225c43df88c)](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/6aeba65b-7681-48ef-97b7-d1c905e0cc04)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/dd9d01b0-aefa-409b-8dd2-db6197aeade2)](https://github.com/gkdsm) 
+| [![HS](https://github.com/user-attachments/assets/ffa4bca8-78d9-45e9-90a4-48fab251ffcf)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/a19bb3f7-1878-41d6-9559-0225c43df88c)](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/6aeba65b-7681-48ef-97b7-d1c905e0cc04)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/c84c8a45-57a1-457b-ab93-c46e1d8002d4)](https://github.com/gkdsm) 
 | 팀장 : 조형석 | 팀원 : 김주혜 | 팀원 : 박수완 | 팀원 : 이하은 |
+
 
 -----------------------------------------------
 
