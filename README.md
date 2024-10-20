@@ -22,8 +22,7 @@
 
 | PM<br>(Project Manager) | CM<br>(Configuration Manager) | DB<br>(Database Manager) | DB<br>(Database Manager) |
 | :------: | :------: | :------: | :------: |
-| [![HS](https://github.com/user-attachments/assets/ffa4bca8-78d9-45e9-90a4-48fab251ffcf)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/b1635615-3a03-47ca-8535-9a447ad1ee8f)
-](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/6aeba65b-7681-48ef-97b7-d1c905e0cc04)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/c84c8a45-57a1-457b-ab93-c46e1d8002d4)](https://github.com/gkdsm) 
+| [![HS](https://github.com/user-attachments/assets/ffa4bca8-78d9-45e9-90a4-48fab251ffcf)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/b1635615-3a03-47ca-8535-9a447ad1ee8f)](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/6aeba65b-7681-48ef-97b7-d1c905e0cc04)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/c84c8a45-57a1-457b-ab93-c46e1d8002d4)](https://github.com/gkdsm) 
 | 팀장 : 조형석 | 팀원 : 김주혜 | 팀원 : 박수완 | 팀원 : 이하은 |
 
 -----------------------------------------------
@@ -49,6 +48,7 @@
    - 새로운 회원의 정보를 DB에 저장한다. <br>
    - 기존 정보가 있는 회원들은 정보를 수정할 수 있다. <br>
    - 회원은 회원 탈퇴를 할 수 있으며 회원 탈퇴 시에 DB에 있는 정보를 즉시 삭제한다. <br>
+   
 
 #### <프로젝트 관리>
 
@@ -75,11 +75,71 @@
 
 5. 권한 위임
    - 프로젝트 관리 권한을 위임한다. <br>
-- 
+
 
 #### <스케줄러>
 
+1. 스케줄 생성
+   - 프로젝트 스케줄을 새로 생성할 수 있다. <br>
+   - DB에 스케줄 정보를 저장한다. <br>
+   - 본 기능의 권한은 프로젝트에 참여한 인원으로 제한한다.<br>
+
+2. 스케줄 조회
+   - 캘린더 UI를 통해 본인이 참여하고 있는 프로젝트에 한해서 각각의 프로젝트의 전체조회와 상세조회가 가능하다.<br>
+   - 본 기능의 권한은 프로젝트에 참여한 인원으로 제한한다.<br>
+
+3. 스케줄 수정
+   - 상세조회를 통해 DB에서 스케줄 정보를 가져와 내용을 수정할 수 있다.<br>
+   - 수정된 내용은 DB에 저장한다.<br>
+   - 본 기능의 권한은 프로젝트에 참여한 인원으로 제한한다.<br>
+
+4. 스케줄 삭제
+   - 스케줄을 제거할 수 있다.<br>
+   - 스케줄 제거 시 DB에도 내용을 삭제한다.<br>
+   - 본 기능의 권한은 프로젝트에 참여한 인원으로 제한한다.<br>
+
+5. 검색
+   - 키워드를 통해 특정 스케줄을 검색할 수 있다.<br>
+   - 스케줄 검색 성공 시 검색 결과 스케줄 정보를 보여준다.<br>
+   - 스케줄 실패 시 실패 창을 보여준다.<br>
+
+6. 실시간 공유 및 업데이트
+   - 스케줄의 변경사항 생길 시 참여 인원 모두에게 실시간으로 수정 사항을 공유한다.<br>
+
+7. 파일 업데이트
+   - 프로젝트에서 공유되어야 할 파일을 업로드한다. <br>
+   - 본 기능 권한은 프로젝트 참여 인원으로 제한한다.<br>
+
+8. 파일 다운로드
+   - 프로젝트에서 공유되어야 할 파일을 다운로드 가능하다.<br>
+   - 본 기능 권한은 프로젝트 참여 인원으로 제한한다.<br>
+
+
 #### <관리자 페이지>
+
+1. 회원 등록
+   - 새로운 회원을 등록할 수 있다. <br>
+   - 회원의 정보를 직접 작성하여 DB로 보낼 수 있다.<br>
+
+2. 회원 조회 
+   - 가입된 회원을 전체 조회, 상세 조회할 수 있다. <br>
+
+3. 회원 정보 관리 
+   - 기존 회원의 정보를 수정, 삭제, 검색할 수 있다.<br>
+
+4. 프로젝트 등록 
+   - 새로운 프로젝트를 등록할 수 있다. <br>
+   - 프로젝트 정보를 직접 작성하여 DB로 보낼 수 있다.<br>
+
+5. 프로젝트 조회 
+   - 프로젝트를 전체 조회, 상세 조회 할 수 있다.<br>
+
+6. 프로젝트 관리
+   - 기존 프로젝트 정보를 수정, 삭제, 검색할 수 있다.<br>
+
+7. 사이트 관리
+   - 사이트의 전체 방문자 수 조회가 가능하다.<br>
+
 
 -----------------------------------------------
 
