@@ -61,8 +61,7 @@ DataBase : MySQL Workbench 8.0 CE
    - 로그인 화면에서 회원가입 창에 들어갈 수 있도록 만들어야한다. <br>
 
 2. 보안
-  * - !!!!!!! 추후 추가할 예정!!!!!!! * <br>
-  <span style="color:red"> !!!!!!! 추후 추가할 예정!!!!!!! </span>
+   - <span style="color:red"> !!!!!!! 추후 추가할 예정!!!!!!! </span>
   
 
 3. 회원가입
