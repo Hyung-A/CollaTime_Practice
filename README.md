@@ -47,12 +47,11 @@ DataBase : MySQL Workbench 8.0 CE <br>
 
 ### 팀원 소개
 
-| PM<br>(Project Manager) | CM<br>(Configuration Manager) | DB<br>(Database Manager) | DB<br>(Database Manager) |
+| PM<br>(Project Manager) | CM<br>(Config Manager) | DB<br>(Database Manager) | DB<br>(Database Manager) |
 | :------: | :------: | :------: | :------: |
-| [![HS](https://github.com/user-attachments/assets/ffa4bca8-78d9-45e9-90a4-48fab251ffcf)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/39fd1094-2c4b-405b-9ce2-4ce28b325789)](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/6aeba65b-7681-48ef-97b7-d1c905e0cc04)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/c84c8a45-57a1-457b-ab93-c46e1d8002d4)](https://github.com/gkdsm) 
-| 팀장 : 이은서 | 팀원 : 김주혜 | 팀원 : 박수완 | 팀원 : 이하은 |
+| [![HS](https://github.com/user-attachments/assets/b9b9af1c-144b-4131-8f4c-01b5550d1113)](https://github.com/Passbob) | [![JH](https://github.com/user-attachments/assets/e582c649-34ab-479d-8d78-e9fb6ddcd0a3)](https://github.com/JUHYE0925) | [![SW](https://github.com/user-attachments/assets/c2f4095c-a507-452a-8a43-655fc01d1d86)](https://github.com/suwanpp) | [![HE](https://github.com/user-attachments/assets/698de351-12dd-484d-8e47-0b04386d305c)](https://github.com/gkdsm) 
+| 팀장 : 조형석 | 팀원 : 김주혜 | 팀원 : 박수완 | 팀원 : 이하은 |
 | 담당 : 회원 관리 | 담당 : 프로젝트 관리 | 담당 : 스케줄러 관리 | 담당 : 관리자 페이지 |
-
 
 -----------------------------------------------
 
@@ -99,9 +98,6 @@ DataBase : MySQL Workbench 8.0 CE <br>
    - 프로젝트 정보를 삭제한다. <br>
    - 삭제한 프로젝트는 프로젝트 창에서 제거한다. <br>
 
-5. 권한 요청
-   - 프로젝트 관리 권한 위임을 관지라에게 요청한다. <br>
-
 
 #### <스케줄러 관리>
 
@@ -139,36 +135,33 @@ DataBase : MySQL Workbench 8.0 CE <br>
 
 #### <관리자 페이지>
 
-1. 회원 등록
-   - 관리자가 새로운 회원의 정보를 직접 기입 및 등록할 수 있다.<br>
-
-2. 회원 조회 
+1. 회원 조회 
    - 가입된 회원을 전체 조회, 상세 조회할 수 있다. <br>
    - 가입된 회원을 검색할 수 있다.<br>
 
-3. 회원 정보 수정
+2. 회원 정보 수정
    - 관리자가 회원의 정보를 직접 수정할 수 있다.<br>
     
-4. 회원 정보 삭제
+3. 회원 정보 삭제
    - 관리자가 회원의 정보를 직접 삭제할 수 있다.<br>
 
-5. 프로젝트 등록 
-   - 관리자가 새로운 프로젝트를 직접 생성할 수 있다. <br>
+4. 회원 정보 검색
+   - 관리자가 회원 정보를 검색할 수 있다.<br>
    
-6. 프로젝트 조회 
+5. 프로젝트 조회 
    - 프로젝트를 전체 조회, 상세 조회 할 수 있다.<br>
    - 프로젝트 관련 키워드를 통해 검색할 수 있다.<br>
 
-7. 프로젝트 수정
-   - 관리자가 프로젝트 정보를 직접 수정할 수 있다.<br>
-
-8. 프로젝트 삭제
+6. 프로젝트 삭제
    - 관리자가 프로젝트 정보를 삭제할 수 있다.<br>
 
-9. 사이트 관리
+7. 프로젝트 검색
+   - 관리자가 프로젝트 검색할 수 있다.<br>   
+
+8. 방문자수 조회
    - 사이트의 하루 방문자 수 조회가 가능하다.<br>
 
-10. 프로젝트 관리 권한 위임
+9. 프로젝트 관리 권한 위임
     - 프로젝트 관리 권한 요청이 들어올 시 기존 프로젝트 관리자에서 다른 팀원으로 관리자 권한을 위임할 수 있다.<br>
 
 #### <마이 페이지>
