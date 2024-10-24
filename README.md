@@ -1,6 +1,9 @@
-# CollaTime
+<img src="https://github.com/user-attachments/assets/bfc45619-5509-4d0a-a7c0-52cea21d2854" width="500" height="180"/>
 
 -----------------------------------------------
+
+# CollaTime
+
 
 ## 목차
 1. [프로젝트 소개 및 개요](#프로젝트-소개-및-개요)
