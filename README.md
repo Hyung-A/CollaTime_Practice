@@ -61,7 +61,8 @@ DataBase : MySQL Workbench 8.0 CE <br>
 
 ### 모델링
 
-![image](https://github.com/user-attachments/assets/4c6403a4-e41c-4e14-bf6b-05013156d144)
+![Group 1241](https://github.com/user-attachments/assets/2a581305-aeea-4997-aa87-c8a40c1f775d)
+
 
 -----------------------------------------------
 
